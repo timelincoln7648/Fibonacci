@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0521D71BB2611B006291E2 /* FibonacciGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0521D61BB2611B006291E2 /* FibonacciGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		CBD5DCEF1BB24C6900A0F6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD5DCEE1BB24C6900A0F6D4 /* AppDelegate.swift */; };
+		CBD5DCF41BB24C6900A0F6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD5DCF21BB24C6900A0F6D4 /* Main.storyboard */; };
+		CBD5DCF61BB24C6900A0F6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD5DCF51BB24C6900A0F6D4 /* Assets.xcassets */; };
+		CBD5DCF91BB24C6900A0F6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD5DCF71BB24C6900A0F6D4 /* LaunchScreen.storyboard */; };
+		CBD5DD041BB24FEE00A0F6D4 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD5DD031BB24FEE00A0F6D4 /* MyViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB0521D61BB2611B006291E2 /* FibonacciGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciGenerator.swift; sourceTree = "<group>"; };
+		CBD5DCEB1BB24C6900A0F6D4 /* Fibonacci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibonacci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD5DCEE1BB24C6900A0F6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBD5DCF31BB24C6900A0F6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBD5DCF51BB24C6900A0F6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD5DCF81BB24C6900A0F6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBD5DCFA1BB24C6900A0F6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD5DD031BB24FEE00A0F6D4 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD5DCE81BB24C6900A0F6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBD5DCE21BB24C6900A0F6D4 = {
+			isa = PBXGroup;
+			children = (
+				CBD5DCED1BB24C6900A0F6D4 /* Fibonacci */,
+				CBD5DCEC1BB24C6900A0F6D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD5DCEC1BB24C6900A0F6D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD5DCEB1BB24C6900A0F6D4 /* Fibonacci.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD5DCED1BB24C6900A0F6D4 /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				CBD5DD031BB24FEE00A0F6D4 /* MyViewController.swift */,
+				CB0521D61BB2611B006291E2 /* FibonacciGenerator.swift */,
+				CBD5DCF21BB24C6900A0F6D4 /* Main.storyboard */,
+				CBD5DD021BB24D1000A0F6D4 /* Supporting */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
+		CBD5DD021BB24D1000A0F6D4 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				CBD5DCEE1BB24C6900A0F6D4 /* AppDelegate.swift */,
+				CBD5DCF51BB24C6900A0F6D4 /* Assets.xcassets */,
+				CBD5DCF71BB24C6900A0F6D4 /* LaunchScreen.storyboard */,
+				CBD5DCFA1BB24C6900A0F6D4 /* Info.plist */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD5DCEA1BB24C6900A0F6D4 /* Fibonacci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD5DCFD1BB24C6900A0F6D4 /* Build configuration list for PBXNativeTarget "Fibonacci" */;
+			buildPhases = (
+				CBD5DCE71BB24C6900A0F6D4 /* Sources */,
+				CBD5DCE81BB24C6900A0F6D4 /* Frameworks */,
+				CBD5DCE91BB24C6900A0F6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fibonacci;
+			productName = Fibonacci;
+			productReference = CBD5DCEB1BB24C6900A0F6D4 /* Fibonacci.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD5DCE31BB24C6900A0F6D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kody O'Connell";
+				TargetAttributes = {
+					CBD5DCEA1BB24C6900A0F6D4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = CBD5DCE61BB24C6900A0F6D4 /* Build configuration list for PBXProject "Fibonacci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD5DCE21BB24C6900A0F6D4;
+			productRefGroup = CBD5DCEC1BB24C6900A0F6D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD5DCEA1BB24C6900A0F6D4 /* Fibonacci */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD5DCE91BB24C6900A0F6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD5DCF91BB24C6900A0F6D4 /* LaunchScreen.storyboard in Resources */,
+				CBD5DCF61BB24C6900A0F6D4 /* Assets.xcassets in Resources */,
+				CBD5DCF41BB24C6900A0F6D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD5DCE71BB24C6900A0F6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD5DD041BB24FEE00A0F6D4 /* MyViewController.swift in Sources */,
+				CBD5DCEF1BB24C6900A0F6D4 /* AppDelegate.swift in Sources */,
+				CB0521D71BB2611B006291E2 /* FibonacciGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBD5DCF21BB24C6900A0F6D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD5DCF31BB24C6900A0F6D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBD5DCF71BB24C6900A0F6D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD5DCF81BB24C6900A0F6D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBD5DCFB1BB24C6900A0F6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBD5DCFC1BB24C6900A0F6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD5DCFE1BB24C6900A0F6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fibonacci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timelincoln.Fibonacci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBD5DCFF1BB24C6900A0F6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fibonacci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timelincoln.Fibonacci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD5DCE61BB24C6900A0F6D4 /* Build configuration list for PBXProject "Fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD5DCFB1BB24C6900A0F6D4 /* Debug */,
+				CBD5DCFC1BB24C6900A0F6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD5DCFD1BB24C6900A0F6D4 /* Build configuration list for PBXNativeTarget "Fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD5DCFE1BB24C6900A0F6D4 /* Debug */,
+				CBD5DCFF1BB24C6900A0F6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD5DCE31BB24C6900A0F6D4 /* Project object */;
+}
